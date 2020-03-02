@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hot Gadgets</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
+  </head>
+
+  <body>
+    <!-- Header Area Start -->
+    <header class="header-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <a class="navbar-brand" href="index.html"
+                ><img src="images/logo.png" alt="Logo"
+              /></a>
+              <button
+                class="navbar-toggler"
+                type="button"
+                data-toggle="collapse"
+                data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link p-3" href="#"
+                      >Home <span class="sr-only">(current)</span></a
+                    >
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link p-3" href="#product1">Smart Phones</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link p-3" href="#product2">Laptop</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link p-3" href="#contact">Contact Us</a>
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header Area End -->
+
+    <!-- Welcome Slider Area Start -->
+    <section class="welcome-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div
+              id="welcomeSliderIndicators"
+              class="carousel slide"
+              data-ride="carousel"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#welcomeSliderIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#welcomeSliderIndicators"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#welcomeSliderIndicators"
+                  data-slide-to="2"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-md-6 d-flex align-items-center">
+                      <div class="slider-item-text">
+                        <h1>Mackbook Pro</h1>
+                        <p>
+                          Lorem ipsum dolor sit, amet consectetur adipisicing
+                          elit. Esse placeat corporis iusto atque unde
+                          voluptates. Laborum, autem dolorem. Rerum delectus hic
+                          qui non dolor voluptas eum asperiores aperiam ipsum
+                          sunt!
+                        </p>
+                        <a href="" class="boxed-btn">buy now >></a>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <img
+                        src="images/banner-products/product-1.png"
+                        class="d-block w-100 img-fluid"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-6 d-flex align-items-center">
+                      <div class="slider-item-text">
+                        <h1>Digital Microphone Pro</h1>
+                        <p>
+                          Lorem ipsum dolor sit, amet consectetur adipisicing
+                          elit. Esse placeat corporis iusto atque unde
+                          voluptates. Laborum, autem dolorem. Rerum delectus hic
+                          qui non dolor voluptas eum asperiores aperiam ipsum
+                          sunt!
+                        </p>
+                        <a href="" class="boxed-btn">buy now >></a>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <img
+                        src="images/banner-products/slider-1.png"
+                        class="d-block w-100 img-fluid"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="row">
+                    <div class="col-md-6 d-flex align-items-center">
+                      <div class="slider-item-text">
+                        <h1>Smart Sound Speacker</h1>
+                        <p>
+                          Lorem ipsum dolor sit, amet consectetur adipisicing
+                          elit. Esse placeat corporis iusto atque unde
+                          voluptates. Laborum, autem dolorem. Rerum delectus hic
+                          qui non dolor voluptas eum asperiores aperiam ipsum
+                          sunt!
+                        </p>
+                        <a href="" class="boxed-btn">buy now >></a>
+                      </div>
+                    </div>
+                    <div class="col-md-6">
+                      <img
+                        src="images/banner-products/slider-3.png"
+                        class="d-block w-100 img-fluid"
+                        alt="..."
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Welcome Slider Area End -->
+
+    <!-- Smartphone Area Start -->
+    <section class="category-area section-padding" id="product1">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h2>Smartphones</h2>
+          </div>
+          <div class="col-6 text-right">
+            <a href="" class="see-all">See All</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <div class="single-category">
+              <img src="images/phone/phone-1.png" alt="Phone 1" />
+              <p>Some quick example text to build on the card title.</p>
+              <span>$999</span>
+              <button class="boxed-btn">Buy now >></button>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="single-category">
+              <img src="images/phone/phone-2.png" alt="Phone 1" />
+              <p>Some quick example text to build on the card title.</p>
+              <span>$755</span>
+              <button class="boxed-btn">Buy now >></button>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="single-category">
+              <img src="images/phone/phone-3.png" alt="Phone 1" />
+              <p>Some quick example text to build on the card title.</p>
+              <span>$1200</span>
+              <button class="boxed-btn">Buy now >></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Smartphone Area End -->
+
+    <!-- Laptop Area Start -->
+    <section class="category-area section-padding" id="product2">
+      <div class="container">
+        <div class="row">
+          <div class="col-6">
+            <h2>Laptop</h2>
+          </div>
+          <div class="col-6 text-right">
+            <a href="" class="see-all">See All</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <div class="single-category">
+              <img src="images/laptop/product-1.png" alt="Phone 1" />
+              <p>Some quick example text to build on the card title.</p>
+              <span>$999</span>
+              <button class="boxed-btn">Buy now >></button>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="single-category">
+              <img src="images/laptop/product-2.png" alt="Phone 1" />
+              <p>Some quick example text to build on the card title.</p>
+              <span>$1299</span>
+              <button class="boxed-btn">Buy now >></button>
+            </div>
+          </div>
+          <div class="col-md-4 text-center">
+            <div class="single-category">
+              <img src="images/laptop/product-3.png" alt="Phone 1" />
+              <p>Some quick example text to build on the card title.</p>
+              <span>$1755</span>
+              <button class="boxed-btn">Buy now >></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Laptop Area End -->
+
+    <!-- Categories Area Start -->
+    <section class="section-padding categories-area" id="categories">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="section-title">
+              <h2>Categories</h2>
+              <span class="separator"></span>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3 text-center d-flex align-items-center">
+            <a href="" class="single-cat">
+              <img src="images/Categories/bag.png" alt="bag" />
+              <h4>Bag</h4>
+            </a>
+          </div>
+          <div class="col-md-3 text-center">
+            <a href="" class="single-cat">
+              <img src="images/Categories/perfume.png" alt="perfume" />
+              <h4>Perfume</h4>
+            </a>
+            <a href="" class="single-cat text-center">
+              <img src="images/Categories/shoe.png" alt="Shoes" />
+              <h4>Shoes</h4>
+            </a>
+          </div>
+          <div class="col-md-6">
+            <div class="categories-thumb">
+              <img src="images/Categories/pale-order.png" alt="Pale Order" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Categories Area End -->
+
+    <!-- Subscribe Area -->
+    <section class="section-padding subscribe-area" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 offset-md-2 text-center">
+            <h2>Subscribe to our newsletter.</h2>
+
+            <div class="subscribe-form d-flex justify-content-center">
+              <input type="email" placeholder="Enter Your Email Address" />
+              <input type="submit" value="Subscribe" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Subscribe Area End -->
+
+    <footer class="footer-area">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-3">
+            <div class="single-footer">
+              <h3>Our Company</h3>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Distinctio animi veniam aspernatur alias minima iusto! Pariatur
+                quis beatae nam laboriosam.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="single-footer">
+              <h3>Category</h3>
+              <ul>
+                <li><a href="">Smartphones</a></li>
+                <li><a href="">Laptop</a></li>
+                <li><a href="">Sports</a></li>
+                <li><a href="">Gadgets</a></li>
+                <li><a href="">Others</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="single-footer">
+              <h3>Quick Links</h3>
+              <ul>
+                <li><a href="">About Us</a></li>
+                <li><a href="">Terms & Conditions</a></li>
+                <li><a href="">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="social-link">
+              <h3>Social Links</h3>
+              <ul>
+                <li><a href="" class="facebook">Facebook</a></li>
+                <li><a href="" class="twitter">Twitter</a></li>
+                <li><a href="" class="linkedIn">LinkedIn</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div class="row mt-5 mb-2">
+          <div class="col-md-12 text-center">
+            &copy; Hot Gadgets 2020 | All Rights Reserved.
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Javascript File Included here -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

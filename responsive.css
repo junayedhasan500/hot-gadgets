@@ -1,0 +1,24 @@
+/*		Tablet and Mobile Layout         */
+@media only screen and (max-width: 991px) {
+    .welcome-area h1 {
+        font-size: 30px;
+    }
+
+    .single-smart-phone {
+        margin-bottom: 15px;
+    }
+
+    .single-footer {
+        margin-bottom: 15px;
+    }
+
+    .social-link li {
+        margin-bottom: 12px;
+    }
+
+    .welcome-area h1 {
+        margin-top: 30px;
+        font-size: 25px;
+        margin-bottom: 15px;
+    }
+}
